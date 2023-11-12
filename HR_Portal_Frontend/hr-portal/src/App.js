@@ -4,7 +4,7 @@ import React from "react";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// Import your components
+
 import Dashboard from "./components/Dashboard";
 import Header from "./components/commons/Header";
 import Footer from "./components/commons/Footer";
