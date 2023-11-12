@@ -24,7 +24,9 @@ git clone https://github.com/joash-muganda/FA23-CMPE-272--Enterprise-SW-Plat--Fi
 
 ### Database Setup
 - Install MySQL and set up the database using the test dataset provided by `datacharmer/test_db`.
-- Follow the installation instructions in the [test_db repository](https://github.com/datacharmer/test_db).
+- lFolow the installation instructions in the [test_db repository](https://github.com/datacharmer/test_db).
+- For quicker setup, CD into the `mysql_win_docker` directory and run 'docker-compose up -d' within the bash terminal
+> Follow the instructions in the readme to access the database.
 
 ### Backend Setup
 - Set up the Flask backend, including virtual environment, dependency installation, and database configuration.
