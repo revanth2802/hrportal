@@ -1,0 +1,77 @@
+.department-performance {
+    display: flex;
+
+    flex-direction: row; /* This sets the main axis to horizontal */
+    flex-wrap: wrap; /* This allows items to wrap onto the next line if they don't fit */
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px 0; /* space above and below the component */
+    max-width: 800px; /* you can adjust this if needed */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.department-performance img {
+    width: 80%; /* adjust based on your needs */
+    max-width: 700px; /* adjust based on your needs */
+    height: auto;
+    margin-bottom: 20px; /* space below the image */
+}
+
+.department-performance p {
+    font-size: 1.1em;
+    color: #555; /* slightly muted text color */
+    text-align: center;
+}
+
+.department-performance-title {
+    font-size: 2em;
+    color: #333; 
+    margin-bottom: 30px; 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 10px; 
+}
+
+.department-total-salary, .department-subtitle {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.chart-container {
+    background-color: #f7f7f7; 
+    padding: 20px;
+    border-radius: 5px; 
+    border: 1px solid #e0e0e0;
+    max-width: 780px;
+    margin: 20px 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    overflow: hidden;
+    width: 48%; /* Adjust this as needed */
+    margin: 1%;
+    
+}
+
+.chart-container .average-salaries-chart, 
+.chart-container .distribution-chart {
+    width: 100% !important;
+}
+
+/* .average-salaries-chart { */
+    /* Any specific styles for this chart can go here */
+    
+/* } */
+
+/* .distribution-chart { */
+    /* Any specific styles for this chart can go here */
+    
+/* } */

@@ -1,0 +1,56 @@
+/* EmployeesTable.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #e6e6e6;
+}
+
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none; /* This will remove the underline for the .btn class which will be used for links styled as buttons */
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+button:disabled, .btn:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+button.btn, .btn {
+    margin-right: 5px;
+    width: 75px;       /* fixed width */
+    height: 35px;      /* fixed height */
+    display: inline-block; /* Make sure it behaves like a block */
+    line-height: 1.2;  /* Adjust as needed for vertical alignment */
+    padding: 5px 10px; /* Adjust the padding if needed */
+    box-sizing: border-box; /* Ensure padding and border are included in total width/height */
+    text-align: center; 
+}
+
+
+

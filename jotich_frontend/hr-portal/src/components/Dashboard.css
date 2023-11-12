@@ -1,0 +1,149 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    /* Set width to 80% of the parent container */
+    margin: 0 auto; /* Center it horizontally */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.common-width-container {
+    max-width: 100%; /* Ensure it doesn't exceed the width of its parent */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border */
+}
+
+.dashboard-metrics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.dashboard-metrics p {
+    flex-basis: calc(25% - 10px); /* Adjust for medium screens */
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navigation-links a, .navigation-links a:hover {
+    margin: 5px 15px; /* Adjust spacing around links */
+    text-decoration: none;
+    color: #007BFF;
+    padding: 10px 15px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allow charts to wrap to prevent overflow */
+}
+
+.chart-section {
+    flex: 1;
+    margin: 0 15px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding and border */
+    min-width: 200px; /* Prevents charts from becoming too narrow */
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.dashboard-metrics p:nth-child(1) {
+    color: #E57373; /* red */
+}
+
+.dashboard-metrics p:nth-child(2) {
+    color: #81C784; /* green */
+}
+
+.dashboard-metrics p:nth-child(3) {
+    color: #64B5F6; /* blue */
+}
+
+.dashboard-metrics p:nth-child(4) {
+    color: #FFD54F; /* yellow */
+}
+
+.chart-section {
+    flex: 1 1 30%; /* Adjusts flex-grow, flex-shrink, and flex-basis */
+    margin: 15px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding and border */
+    min-height: 300px; /* Sets a minimum height for each chart */
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dashboard-charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjusts spacing between charts */
+    align-items: flex-start;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .chart-section {
+    flex: 1 1 100%; 
+  }
+}
+
+/* Responsive design for .dashboard-metrics */
+@media (max-width: 768px) {
+    .dashboard-metrics p {
+        
+        flex-basis: 100%; 
+        margin-bottom: 10px;
+    }
+}
+
+/* Responsive design for .navigation-links */
+@media (max-width: 768px) {
+    .navigation-links a {
+        flex-basis: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+        padding: 12px 20px; /* Bigger padding for easier click */
+    }
+}
+
+
+

@@ -1,0 +1,52 @@
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #f6f6f6;
+    border-radius: 8px;
+}
+
+
+.header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.search-container {
+    width: 100%;
+    padding: 0;
+}
+
+.search-container input[type="text"] {
+    box-sizing: border-box;  /* Ensures padding and border are included in total width */
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+
+.new-employee-btn {
+    display: inline-block; /* Ensures that width and other styling properties apply properly */
+    width: 200px; /* Set a fixed width for the button */
+    padding: 10px 20px; /* Padding for height and width */
+    font-size: 1.2em; /* Increase the font size */
+    margin-top: 5px; /* Margin at the top */
+    margin-bottom: none; /* Margin at the bottom */
+    background-color: #28a745; /* Green color for the "New" action */
+    border: none;
+    text-align: center; /* Center the text */
+}
+
+.new-employee-btn:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+

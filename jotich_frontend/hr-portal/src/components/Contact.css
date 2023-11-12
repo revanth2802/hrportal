@@ -1,0 +1,33 @@
+.contact-page {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-page p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    color: #444;
+    font-weight: 500;
+}
