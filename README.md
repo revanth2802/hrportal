@@ -20,8 +20,7 @@ The Hundhwe HR Portal is an innovative enterprise HR Portal application designed
 ## Setup and Installation
 
 ### Clone the Repository
-git clone https://github.com/your-github-username/hundhwe-hr-portal.git
-cd hundhwe-hr-portal
+git clone https://github.com/joash-muganda/FA23-CMPE-272--Enterprise-SW-Plat--Final-Project.git
 
 ### Database Setup
 - Install MySQL and set up the database using the test dataset provided by `datacharmer/test_db`.
