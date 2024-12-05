@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const BASE_URL = "https://localhost:5000";
+const BASE_URL = "https://localhost:5001";
 
 export const fetchAverageSalaryPerDepartment = async () => {
     try {

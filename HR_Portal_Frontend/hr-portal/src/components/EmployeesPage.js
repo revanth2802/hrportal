@@ -20,7 +20,7 @@
 //   const [employeeToEdit, setEmployeeToEdit] = useState(null);
 
 //   const fetchEmployees = useCallback(() => {
-//     let url = `https://localhost:5000/employees?page=${currentPage}`;
+//     let url = `https://localhost:5001/employees?page=${currentPage}`;
 
 //     if (searchQuery) {
 //       url += `&search_term=${searchQuery}`;
@@ -56,7 +56,7 @@
 
 //   const deleteEmployee = (emp_no) => {
 //     axios
-//       .delete(`https://localhost:5000/employees/${emp_no}`)
+//       .delete(`https://localhost:5001/employees/${emp_no}`)
 //       .then(() => {
 //         const updatedEmployees = employees.filter(
 //           (emp) => emp.emp_no !== emp_no

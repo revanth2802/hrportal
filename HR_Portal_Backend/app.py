@@ -39,7 +39,7 @@ logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 app.json_encoder = CustomJSONEncoder  
 
-CORS(app, origins=["https://localhost:3000"])
+CORS(app, origins=["*"])
 
 
 
@@ -91,5 +91,6 @@ def internal_server_error(e):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, ssl_context=('cert.pem', 'key.pem'))
+     app.run(debug=True, host="0.0.0.0", port=5001)
+    # app.run(debug=True, ssl_context=('cert.pem', 'key.pem'))
 

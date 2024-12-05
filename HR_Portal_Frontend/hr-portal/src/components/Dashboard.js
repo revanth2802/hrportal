@@ -37,13 +37,13 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="common-width-container">
-        <h1>Hundhwe</h1>
+        <h1>TechCube Analytics</h1>
         <div className="navigation-links">
           <Link to="/employees">Employees</Link>
           <Link to="/departments">Departments</Link>
           <Link to="/salaries">Salaries</Link>
           <Link to="/titles">Titles</Link>
-          <Link to="/documents">Documents</Link> 
+          {/* <Link to="/documents">Documents</Link>  */}
         </div>
         
         <div className="dashboard-metrics">
@@ -63,10 +63,10 @@ function Dashboard() {
           <h3>Gender Distribution</h3>
           <GenderDistributionChart genderData={metrics.genderDistribution} />
         </div>
-        <div className="chart-section">
+        {/* <div className="chart-section">
           <h3>Salary Over Time</h3>
           <SalaryGrowthComponent />
-        </div>
+        </div> */}
       </div>
     </div>
   );

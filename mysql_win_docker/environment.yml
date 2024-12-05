@@ -1,4 +1,4 @@
-name: myenv
+name: venv
 channels:
   - defaults
 dependencies:

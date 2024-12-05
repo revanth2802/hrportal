@@ -20,3 +20,4 @@ function DepartmentEmployees({ departmentId }) {
     );
   }
   
+  export  default DepartmentEmployees;

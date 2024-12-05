@@ -7,7 +7,7 @@ function SalaryGrowthComponent() {
     const [salaryGrowthData, setSalaryGrowthData] = useState([]);
 
     useEffect(() => {
-        axios.get('https://localhost:5000/salary_growth')
+        axios.get('https://localhost:5001/salary_growth')
         .then(response => {
             setSalaryGrowthData(response.data.data.map(item => ({
                 month: item.month,
